@@ -1,0 +1,27 @@
+body {
+    background-color: #e4e978;
+    margin: 15px 10px;
+    width: 700px;
+
+}
+
+body > article {
+    border: 1px solid #b2ad7d;
+    padding: 5px 15px;
+}
+
+section {
+    font-style: italic;
+}
+
+section > article:first-child {
+    border: 1px solid #b2ad7d;
+    padding: 5px 15px;
+    margin: 15px 0px;
+}
+
+section > article:nth-child(2) {
+    border: 1px solid #b2ad7d;
+    padding: 5px 15px;
+    margin: 15px 0px;
+}
