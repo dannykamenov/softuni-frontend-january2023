@@ -1,0 +1,28 @@
+body {
+    padding: 2.5em;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page > header {
+    flex-basis: 100%;
+}
+
+.page > main {
+    flex-basis: 65%;
+}
+
+.page > aside {
+    flex-basis: 30%;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}

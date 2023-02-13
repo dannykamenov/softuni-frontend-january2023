@@ -1,0 +1,26 @@
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 75px;
+    margin-top: 50px;
+    width: 1510px;
+}
+
+header {
+    border-bottom: 2px solid rgb(0,0,0);
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+ul {
+    display: flex;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+    font-size: 16px;
+    padding: 10px;
+    
+}
