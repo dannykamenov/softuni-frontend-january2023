@@ -1,0 +1,39 @@
+@import 'https://use.fontawesome.com/releases/v5.6.3/css/all.css';
+
+.card {
+    height: 50vh;
+}
+
+.card:first-child {
+    background-color: lightgreen;
+}
+
+.card:first-child img {
+    width: 300px;
+}
+
+.card:last-child {
+    background-color: lightsalmon;
+}
+
+.card:last-child img {
+    width: 200px;
+}
+
+.card {
+    position: relative;
+}
+
+.card .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card .container .icon {
+    color: white;
+    position: absolute;
+    right: 6px;
+    bottom: 12px;
+}

@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    max-width: 450px;
+    margin: 60px auto;
+    border-radius: 12px;
+    height: 450px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 450px;
+    height: 250px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    object-fit: cover;
+}
+
+
+.card div:nth-child(2) {
+    padding: 15px 40px;
+    
+}
+
+
+
+h3 {
+    font-family: Georgia, serif;
+    font-size: 1em/1.2;
+}
+
+p {
+    margin-top: 10px;
+}
+
+.button {
+    background-color: rgb(0, 153, 0);
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding-top: 8px;
+    position: absolute;
+    right: 400px;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
